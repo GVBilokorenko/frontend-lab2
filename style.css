@@ -1,0 +1,45 @@
+.box {
+	margin: 10px;
+	display: block;
+	height: 180px;
+	width: 110px;
+}
+
+.circle {
+	background-color: #3f3151;
+	border-radius: 50%;
+	width: 14px;
+	height: 12px;
+	border: 1px solid black;
+}
+
+.frame {
+	background-color: #d6e3bc;
+	height: 170px;
+	width: 95px;
+	border-radius: 20px;
+	border: 1px solid black;
+}
+
+.clock {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 6px auto;
+	background-color: white;
+	height: 85px;
+	width: 80px;
+	border-radius: 20px;
+	border: 1px solid black;
+	font-size: 30px;
+}
+
+.buttons {
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	display: grid;
+	margin: auto;
+	width: 65px;
+	height: 60px;
+	padding-left: 5px;
+}
