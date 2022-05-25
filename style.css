@@ -5,15 +5,8 @@
 	width: 110px;
 }
 
-.circle {
-	background-color: #3f3151;
-	border-radius: 50%;
-	width: 14px;
-	height: 12px;
-	border: 1px solid black;
-}
-
 .frame {
+	position: absolute;
 	background-color: #d6e3bc;
 	height: 170px;
 	width: 95px;
@@ -22,10 +15,9 @@
 }
 
 .clock {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 6px auto;
+	position: absolute;
+	left: 6%;
+	top: 4%;
 	background-color: white;
 	height: 85px;
 	width: 80px;
@@ -34,12 +26,33 @@
 	font-size: 30px;
 }
 
+.clock p {
+	position: absolute;
+	bottom: -3%;
+	left: 5%;
+}
+
 .buttons {
-	grid-template-columns: repeat(3, 1fr);
-	align-items: center;
-	display: grid;
-	margin: auto;
-	width: 65px;
+	display: flex;
+	position: absolute;
+	top: 58%;
+	left: 15%;
+	width: 72px;
 	height: 60px;
-	padding-left: 5px;
+}
+
+.c33 {
+	position: relative;
+	height: 100%;
+	width: 33%;
+}
+
+.circle {
+	position: relative;
+	margin: 5px 2px;
+	background-color: #3f3151;
+	border-radius: 50%;
+	width: 14px;
+	height: 12px;
+	border: 1px solid black;
 }
